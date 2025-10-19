@@ -13,9 +13,11 @@ We welcome contributions! Here's how you can help improve Icoziv:
 4. **Place in Directory**: Add to the `icons/` folder
 5. **Build**: Run `bun run build` and verify the icon is included
 6. **Check**: Run `bun run dev` to start the development server
-7. **Preview**: Open `http://localhost:8787/icons/icons?i=<icon-name>` to preview the icon
-8. **Update README**: Run `bun run list` to regenerate the icons table
-9. **Submit a PR**: Run `bun run check:fix` to ensure everything passes, then submit a pull request
+7. **Preview** (Choose one option):
+   - **Option A (Recommended)**: Run `bun run dev` to start the development server, then open `http://localhost:8787/icons/icons?i=<icon-name>`
+   - **Option B (Alternative)**: Install http-server globally (`npm i -g http-server`), then run `http-server . -p 8080` and open one of the options that appear in the terminal. Remember to delete the cache if nothing is being updated.
+9. **Update README**: Run `bun run list` to regenerate the icons table
+10. **Submit a PR**: Run `bun run check:fix` to ensure everything passes, then submit a pull request
 
 👉 Check [todo.md](../todo.md) to get suitable ideas.
 
